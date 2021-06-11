@@ -1,0 +1,7 @@
+.divider-column {
+    width: 100%;
+    height: 0;
+    margin: 1em 0;
+    border-bottom: 1px solid #403d39;
+    align-self: center;
+}

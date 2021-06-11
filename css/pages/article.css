@@ -1,0 +1,58 @@
+/* CSS for the content of the article.html */
+
+body * {
+    text-align: justify;
+}
+
+.author-link-img {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 3.6em;
+    height: 3.6em;
+    object-fit: cover;
+}
+
+article {
+    display: inline;
+}
+
+p::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.intro {
+    font-style: italic;
+}
+
+.first-letter {
+    font-size: 6em;
+    line-height: 1em;
+    float: left;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+@media(min-width: 901px) {
+    .image-caption {
+        max-width: 40%;
+        float: right;
+    }
+}

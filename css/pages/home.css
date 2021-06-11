@@ -1,0 +1,29 @@
+/* CSS for the content of the index.html */
+
+.home-content {
+    grid-area: "ct";
+    display: grid;
+    grid-template-areas:
+    "ar"
+    "sb";
+    overflow-y: auto;
+    gap: 2em 10%;
+}
+
+@media (max-width: 600px) {
+    
+}
+
+@media(min-width: 601px){
+
+}
+
+@media(min-width: 901px) {
+
+    .home-content {
+        grid-template-areas:
+        "sb ar";
+        grid-template-columns: 20% 1fr;
+    }
+
+}

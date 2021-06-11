@@ -1,0 +1,31 @@
+.input {
+    display: flex;
+    border: 1px solid #ccc5B9;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 3px;
+    gap: 20px;
+}
+
+.input input {
+    background: transparent;
+}
+
+.input:focus-within {
+    border-color: #eb5e28;
+}
+
+.input:focus-within>img{
+    filter: invert(53%) sepia(80%) saturate(3260%) hue-rotate(343deg) brightness(93%) contrast(98%);
+}
+
+.input>img{
+    max-height: 16px;
+    max-width: 16px;
+}
+.input>.search, .input>.search:focus-visible{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+

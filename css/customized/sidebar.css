@@ -1,0 +1,66 @@
+
+.sidebar {
+    display: flex;
+    flex-flow: column;
+    grid-area: sb;
+    padding: 5px;
+    align-items: center;
+}
+
+.sidebar h2, .sidebar h3, .sidebar h4 {
+    margin: 1em 0 0.5em 0;
+}
+.sidebar p {
+    margin: 0 0 0.5em 0;
+}
+
+.stay-connected {
+    align-self: flex-start;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.topic-grid {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 5px;
+    align-self: stretch;
+}
+
+.topic-grid a {
+    display: flex;
+    border: 1px solid #403d39;
+    color: #eb5e28;
+    background-size:cover;
+    filter: grayscale(1);
+    width: 100%;
+    height: 6em;
+    align-items: flex-end;
+}
+.topic-grid h4 {
+    color: #fffcf2;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.2em;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+.img-law {
+    background: url("../../img/law.jpg");
+}
+
+.img-dev {
+    background: url("../../img/dev.jpg");
+}
+
+
+.img-sports {
+    background: url("../../img/sports.jpg");
+}
+
+
+.img-lifestyle {
+    background: url("../../img/lifestyle.jpg");
+}

@@ -1,0 +1,33 @@
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc5B9;
+    padding: 10px 0 10px 0;
+}
+
+.card-title {
+    /* border-bottom: 1px double #ccc5B9; */
+    margin: 15px 0;
+    margin: 5px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    margin: 5px;
+}
+
+.card-image{
+    max-width: 100%;
+    object-fit: cover;
+    margin: 18px 0;
+    align-self: center;
+}
+
+@media (max-width: 600px) {
+    .card-image {
+        width: 50vh;
+    }
+}

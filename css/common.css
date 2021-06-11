@@ -1,0 +1,56 @@
+.author-span {
+    font-style: italic;
+}
+
+.author-link {
+    border-bottom: 1px dashed currentColor;
+}
+
+
+/* Some handy functions for Aligning */
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+
+/* Text Aligns */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* Align-Items */
+.items-center {
+    align-items: center;
+}
+
+/* Self Aligns */
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.flex-center {
+    align-self: center;
+}

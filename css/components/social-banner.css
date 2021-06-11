@@ -1,0 +1,14 @@
+.social-banner{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border: solid #ccc5B9;
+    border-width: 1px 0;
+    margin: 1em 0;
+}
+
+.social-banner img {
+    object-fit: contain;
+    height: 2em;
+    padding: 10px;
+}
