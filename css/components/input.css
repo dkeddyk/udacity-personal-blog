@@ -12,7 +12,7 @@
 }
 
 .input:focus-within {
-    border-color: #eb5e28;
+    border-color: #006800;
 }
 
 .input:focus-within>img {

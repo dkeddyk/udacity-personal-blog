@@ -30,7 +30,7 @@
 .topic-grid a {
     display: flex;
     border: 1px solid #403d39;
-    color: #eb5e28;
+    color: #006800;
     background-size: cover;
     filter: grayscale(1);
     width: 100%;
@@ -39,8 +39,8 @@
 }
 
 .topic-grid h4 {
-    color: #fffcf2;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 0.2em;
     margin: 0;
     text-align: center;
