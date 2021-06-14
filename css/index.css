@@ -106,6 +106,9 @@ body {
 }
 
 @media(min-width: 901px) {
+    .container {
+        box-shadow: 0 0 10px 0 #403d39
+    }
     .header {
         flex-flow: row;
     }
