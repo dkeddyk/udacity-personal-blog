@@ -1,0 +1,7 @@
+blockquote {
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    border-left: 3px solid #eb5e28;
+}

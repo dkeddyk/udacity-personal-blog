@@ -1,5 +1,5 @@
 .card {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-bottom: 1px solid #ccc5B9;
@@ -10,6 +10,11 @@
     /* border-bottom: 1px double #ccc5B9; */
     margin: 15px 0;
     margin: 5px;
+    text-align: left;
+}
+
+.card-subtitle {
+    text-align: left;
 }
 
 .card-content {
@@ -19,7 +24,7 @@
     margin: 5px;
 }
 
-.card-image{
+.card-image {
     max-width: 100%;
     object-fit: cover;
     margin: 18px 0;

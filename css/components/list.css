@@ -1,0 +1,11 @@
+ul.list {
+    list-style-type: circle;
+}
+
+ul.plain-list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 5px;
+}

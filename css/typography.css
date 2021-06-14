@@ -1,0 +1,49 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-size: 16px;
+    color: #403d39;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 24px 0;
+}
+
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: left;
+    margin: 14px 0;
+}
+
+h5 {
+    font-size: 18px;
+    text-align: left;
+    margin: 12px 0;
+}
+
+h6 {
+    font-size: 16px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+p {
+    text-align: justify;
+}

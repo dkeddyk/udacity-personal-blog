@@ -1,0 +1,28 @@
+/* Colors */
+
+.bg-white {
+    background-color: #fffcf2;
+}
+
+.bg-light {
+    background-color: #ccc5B9;
+}
+
+.bg-dark {
+    color: #fffcf2;
+    background-color: #403d39;
+}
+
+.bg-black {
+    color: #fffcf2;
+    background-color: #252422;
+}
+
+.bg-highlight {
+    color: #fffcf2;
+    background-color: #eb5e28;
+}
+
+.bg-dark *, .bg-black *, .bg-highlight * {
+    color: #fffcf2;
+}

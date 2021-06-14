@@ -3,45 +3,32 @@
     grid-auto-flow: row;
 }
 
-@media(min-width: 601px){
-
+@media(min-width: 601px) {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 1.2em;
         align-items: flex-start;
     }
-
     .card-grid-top-exponat {
-        grid-template-areas:
-        "tp tp"
-        "c1 c2";
+        grid-template-areas: "tp tp" "c1 c2";
     }
-
     .card-grid-top-exponat :first-child {
         grid-area: tp;
     }
-    
-    .card-grid-top-exponat :first-child .card-image{
+    .card-grid-top-exponat :first-child .card-image {
         max-width: 48.2%;
         max-height: 18em;
     }
-
     .card-grid-top-exponat :first-child .card-content {
         flex-direction: row;
     }
-
 }
 
 @media(min-width: 901px) {
-
     .card-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-
     .card-grid-top-exponat {
-        grid-template-areas:
-        "tp tp tp"
-        "c1 c2 c3";
+        grid-template-areas: "tp tp tp" "c1 c2 c3";
     }
-
 }

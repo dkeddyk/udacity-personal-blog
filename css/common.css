@@ -1,22 +1,18 @@
-.author-span {
-    font-style: italic;
-}
-
-.author-link {
-    border-bottom: 1px dashed currentColor;
-}
-
-
 /* Some handy functions for Aligning */
 
 .row {
     display: flex;
     flex-direction: row;
 }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 .space-between {
     justify-content: space-between;
 }
-
 
 /* Text Aligns */
 
@@ -37,6 +33,7 @@
 }
 
 /* Align-Items */
+
 .items-center {
     align-items: center;
 }

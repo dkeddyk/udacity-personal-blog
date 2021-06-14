@@ -1,10 +1,8 @@
-
-
 .article-preview {
-  word-wrap: break-word;
-  overflow: hidden;
-  line-height: 1.2em;
-  height: 12em;
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 1.2em;
+    height: 12em;
 }
 
 .article-preview-short {
@@ -20,23 +18,19 @@
 }
 
 @media (max-width: 600px) {
-    
     .article-preview {
         word-wrap: break-word;
         overflow: hidden;
     }
 }
 
-@media(min-width: 601px){
-
+@media(min-width: 601px) {
     .article-preview {
         word-wrap: break-word;
         overflow: hidden;
         height: 18em;
     }
-
     .article-preview-short {
         height: 8.4em;
     }
-
 }

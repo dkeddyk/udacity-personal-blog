@@ -1,0 +1,13 @@
+.author-span {
+    font-style: italic;
+}
+
+.author-link {
+    border-bottom: 1px dashed currentColor;
+}
+
+.author-link-img {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}

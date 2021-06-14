@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.button:hover{
+.button:hover {
     cursor: pointer;
     color: #fffcf2;
     background-color: #f37b4b;

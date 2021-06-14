@@ -1,0 +1,24 @@
+.design-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.design-container>* {
+    flex: 1;
+}
+
+.design-container .avatar {
+    display: flex;
+    border: 1px solid #252422;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.design-container .list li {
+    margin-bottom: 20px;
+}
+
+.design-container .colors .row {
+    gap: 20px
+}
